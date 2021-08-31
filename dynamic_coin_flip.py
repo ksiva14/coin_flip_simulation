@@ -35,7 +35,7 @@ sns.set_style('whitegrid')
 # Figure for animation
 figure = plt.figure('Rolling a Fair Coin')  
 # coin flips (1 Head, 2 Tails) for display on x-axis
-values = list(range(1, 3))  
+values = ['Heads', 'Tails']  
 frequencies = [0] * 2  # list of coin frequencies
 
 # configure and start animation that calls function update
